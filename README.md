@@ -1,2 +1,2 @@
-# joao-e-leo
-lamine yamal
+# Matematica-II-2B
+Arquivo para ser utilizado nas aulas de programação
