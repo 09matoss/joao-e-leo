@@ -4,24 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
-    <header>
-        <p>Eu sou o Lamine Yamal</p>
-        <img src="img/download 1.png" alt="">
-        <h1>Eu sou jogador profissional de futebol</h1>
-        <p>Sou jogador de futebol do Barcelona FC, atualmente estou jogando Champions League, Copa do Rei e LaLiga</p>
+    <header class="container text-center">
+        <img src="img/download 1.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset=""> <!----colocar a sua imagem e alterar alt="avatar da(o) Seu Nome"----->
+        <p class="lead">Olá, sou o Lamine Yamal_</p> <!----Colocar o seu nome----->
+        <h1>Eu sou jogador profissional de futebol</h1> <!----Colocar a descrição do que você faz, ex: Sou Estudante----->
+        <p>Sou jogador de futebol do Barcelona FC, atualmente estou jogando Champions League, Copa do Rei e LaLiga</p> <!----Colocar o texto com a descriçaõ detalhada do que você faz----->
         <p>Minhas habilidades</p>
         <div>
-            <p>Objetividade nos dribles </p>
-            <p>Veloz</p>
-            <p>Habilidoso</p>
-            <p>Driblador</p>
+            <p class="badge bg-secondary">Objetividade nos dribles </p> <!----Colocar a habilidade 1----->
+            <p class="badge bg-secondary">Veloz</p> <!----Colocar a habilidade 2----->
+            <p class="badge bg-secondary">Habilidoso</p> <!----Colocar a habilidade 3----->
+            <p class="badge bg-secondary">Driblador</p> <!----Colocar a habilidade 4----->
         </div>
     </header>
+    <main class="container mt-5">
+        <h2>Fotos jogando </h2>
+        <div class="row">
+            <!-------------------------------------------PROJETO 1---------------------------------------------------------------->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download 2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual"> <!----Colocar a imagem do seu primeiro projeto----->
+                    <div class="card-body">
+                        <h5 class="card-title">Partida pela LaLiga</h5> <!----Colocar o título do seu projeto----->
+                        <p class="card-text">Resultado da partida Barcelona FC 3 x  1 Real Madrid, fiz dois gols  </p> <!----Colocar a descrição do seu projeto----->
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------------------PROJETO 2------------------------------------------------------------------>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download 3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual"> <!----Colocar a imagem do seu segundo projeto----->
+                    <div class="card-body">
+                        <h5 class="card-title">Partida pela Champions League </h5> <!----Colocar o título do seu projeto----->
+                        <p class="card-text">Melhor da partida pela primeira vez, Barcelona FC 5 x 4 Borussia dortmund</p> <!----Colocar a descrição do seu projeto----->
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------------PROJETO 3---------------------------------------------------------------->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download 4.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual"> <!----Colocar a imagem do seu terceiro projeto----->
+                    <div class="card-body">
+                        <h5 class="card-title">Campeão da Europa League</h5> <!----Colocar o título do seu projeto----->
+                        <p class="card-text">Campeão da Europa League pela primeira vez sendo o melhor do campeonato</p> <!----Colocar a descrição do seu projeto----->
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--------------------------------------------DESCRIÇÃO 1--------------------------------------------------------------->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Yamal decide, Barcelona vence o Espanyol e é campeão de La Liga</h5> <!----Colocar o título da descrição detalhada do projeto 1----->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Sem contar com a “ajuda” do Real Madrid, o Barcelona fez sua parte, nesta quinta-feira, venceu o Espanyol por 2 a 0 no clássico catalão e comemorou no gramado do estádio RCDE o título nacional. Lamine Yamal, que anotou o primeiro gol e deu o passe para o tento de Fermín López, fez a diferença no duelo que garantiu ao conjunto azul e grená a 28ª conquista de La Liga.</p> <!----textos de detalhamento do projeto 1----->
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p> <!----textos de detalhamento do projeto 1----->
+                    <p>Com uma campanha irretocável - 26 vitórias, cinco empates e cinco derrotas em 36 partidas - e um ataque arrasador - 97 gols marcados na competição -, a equipe comandada pelo alemão Hansi Flick confirmou o caneco duas rodadas antes do encerramento do Espanhol. Com o sexto triunfo seguido e uma invencibilidade de 17 partidas no certame, Barcelona chegou a 85 pontos e não pode mais ser alcançado pelo único concorrente, o Real Madrid, que soma 78</p> <!----textos de detalhamento do projeto 1----->
+                    <p></p> <!----textos de detalhamento do projeto 1----->
+                    <img src="img/projeto-1.png" class="img-fluid w-100"  
+ alt="Imagem representativa do projeto de uma biblioteca online"> <!----Imagem que vai aparecer dentro dessa caixa de detalhamento do projeto 1, alterar o nome que esta no comando alt----->
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a> <!----Se quiser anexar algo----->
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a> <!----Se quiser anexar algo----->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------DESCRIÇÃO 2----------------------------------------------------------------->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lamine Yamal escolhe os melhores da Champions e manda recado sobre Bola de Ouro</h5> <!----Colocar o título da descrição detalhada do projeto 2----->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    </p> <!----textos de detalhamento do projeto 2----->
+                    <p></p> <!----textos de detalhamento do projeto 2----->
+                    <p></p> <!----textos de detalhamento do projeto 2----->
+                    <p>Apenas 17 anos, talento impressionante e muita, muita personalidade. Lamine Yamal foi um dos protagonistas do Barcelona nas conquistas do Campeonato Espanhol, da Copa do Rei e da Supercopa da Espanha, além de colecionar atuações decisivas na Champions League. Mesmo sem o título europeu com o clube catalão, o que pode ser determinante na escolha da Bola de Ouro, o jogador deu sua opinião sobre o prêmio, em entrevista à Rádio Cope.
+
+
+                    </p> <!----textos de detalhamento do projeto 2----->
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online"> <!----Imagem que vai aparecer dentro dessa caixa de detalhamento do projeto 1, alterar o nome que esta no comando alt----->
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a> <!----Se quiser anexar algo----->
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a> <!----Se quiser anexar algo----->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------DESCRIÇÃO 3----------------------------------------------------------------->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lamine Yamal, craque do Barcelona e campeão espanhol aos 17 anos</h5> <!----Colocar o título da descrição detalhada do projeto 3----->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Campeão espanhol pelo Barcelona nesta quinta-feira (15), o atacante Lamine Yamal encanta o mundo jogo após jogo e não cansa de quebrar recordes. Um dos mais recentes deles, contra a Inter de Milão, foi se tornar o jogador mais jovem a marcar em uma semifinal de Uefa Champions League.
+
+                    </p> <!----textos de detalhamento do projeto 3----->
+            
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100"> <!----Imagem que vai aparecer dentro dessa caixa de detalhamento do projeto 1, alterar o nome que esta no comando alt----->
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a> <!----Se quiser anexar algo----->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">jvll</a> <!----Colocar o link do GitHub de vocês----->
+        </div>
+        <p class="my-5 text-center"></p> <!----Alterar o nome----->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
